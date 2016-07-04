@@ -5,11 +5,7 @@
     body {
  	background: url('img/bg.jpg') repeat-x;
  	font-family: Tahoma,Arial,Sans-Serif;
- 	font-size: 14px;
- 	width: 1280px;
- 	margin:0px;
-	padding: 0px;
-	height:1060px;
+ 	font-size: 14px;	
  }
  .container {
     padding: 0px;
@@ -33,7 +29,7 @@ header {
 	vertical-align: top;
 }
 .contacts{
-	padding: 10px 0 10px 235px;
+	padding: 11px 0 10px 235px;
 }
 .contacts h2{
 	margin-bottom: 10px;
@@ -45,46 +41,26 @@ header {
 	font-family: "Tahoma";
 	color: rgba(18, 138, 167, 0.8);
 }
-.contries{
-	padding-right: 27px;
-}
-.contries li{
-	width: 60px;
-	height: 60px;
-	margin: 0 1px;
-	float: right;
-	text-align: center;
-	background-position: top;
-	list-style: none;
-}
-.contries li a{
-	line-height: 104px;
-	font-size: 10px;
-	font-family: "Tahoma";
-	color: rgb(18, 138, 167);
-	text-decoration: underline;
-}
-.india{
-	background: url('img/india.png') no-repeat;
-
-}
-.maldives{
-	background: url('img/maldives.png') no-repeat;
-
-}
-.sri-lanka{
-	background: url('img/shri-lanka.png') no-repeat;
-
-}
-.bhutan{
-	background: url('img/bhutan.png') no-repeat;
-}
-.tibet{
-	background: url('img/tibet.png') no-repeat;
-}
-.nepal{
-	background: url('img/nepal.png') no-repeat;
-}
+.contries {
+	 padding-right: 27px;
+	 display: block;
+	}
+	.contries li{
+		list-style :none;
+		font-family:"tahoma";
+		font-size: 10px;
+		text-decoration: underline;
+		text-align: center;
+	    display: block;
+	    float:right;
+	     width: 60px;
+         height: 60px;
+         background-position: top;
+	}
+	.contries li a {
+		color: #61b1c4;
+		padding-left: 0px;
+	}
 .box {
 	background: url('img/background.jpg');
 	background-repeat: no-repeat;
@@ -110,6 +86,7 @@ header {
 	margin: 0 4% 0 0;
 	text-align: left;
 	position: relative;
+	margin-left: 10px;
 }
 .menu li a{
 	width: 100%;
@@ -154,7 +131,7 @@ header {
 }
  .first{
  	padding-top: 13px;
- 	margin-top: 1px;
+ 	margin-top: 4px;
  	width: 20%;
  	height: 526px;
  	padding-left: 20px;
@@ -168,7 +145,7 @@ header {
  .contant h1{
  	padding: 12px 0;
 	text-align: center;
-	font-size: 16x;
+	font-size: 16px;
 	color: rgb(66, 76, 67);
 }
  .contant p {
@@ -182,7 +159,7 @@ header {
 }
 .second {
 	padding-top: 13px;
-    margin-top: 1px;
+    margin-top: 4px;
  	width: 20%;
  	height: 526px;
  	padding-right: 25px;
